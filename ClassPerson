@@ -1,0 +1,23 @@
+Person person1 = new Person("Alice", 25);
+Person person2 = new Person("Bob", 30);
+person1.name
+person1.age
+class Person {
+	String name;
+	int age;
+
+	Person(String n, int a) {
+		name = n;
+		age = a;
+	}
+	
+	void sayHello(){
+		System.out.println("Hello, my name is " + name);
+	}
+	
+	void haveBirthday(){
+		System.out.println("Happy Birthday! " + name + " is now " + age);
+	}
+
+}
+person1.sayHello()
